@@ -1,0 +1,50 @@
+#add-new {
+    padding-top: 5vh;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.3em;
+  }
+  
+  h3 {
+    padding-top: 5vh;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+  }
+  label {
+    padding-top: 5vh;
+    font-size: 1.3em;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  fieldset {
+    border: none;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-items: center;
+    width: 40%;
+    font-size: 1em;
+  }
+  
+  label {
+    padding-bottom: 10px;
+  }
+  
+  #submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1.5vh 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+  }

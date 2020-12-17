@@ -1,0 +1,24 @@
+.Dashboard {
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  padding: 6vh;
+  font-size: 2em;
+}
+
+#dashboard-table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  align-items: center;
+  border-spacing: 4px;
+}
+
+table, th, td, {
+  border: 2px solid whitesmoke;
+    border-collapse: collapse;
+    padding: 15px;
+}

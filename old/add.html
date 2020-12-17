@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keep Up</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/add-new.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header><img id="keepup" src="img/2.png" href="index.html"></header>
+<div class="main-content">
+  <div class="static-menu">
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html" class="active">Add</a></li>
+            <li><a href="update.html">Update</a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </ul>
+    </nav>
+  </div>
+</div>
+  <script src="js/insert.js"></script>
+  <!-- Uuden tapahtuman lisäys alkaa tästä -->
+  <h3>Add new </h3>
+          <fieldset>
+              <label>Name: </label>
+              <br><br>
+              <input type ="text" id="newNameCell" name="name" required>
+              <br><br>
+              <label>Date: </label>
+              <br><br>
+              <input type="text" placeholder="1-09-2020" id="newDateCell" name="date" required>
+              <br><br>
+              <label>Information: </label>
+              <br><br>
+              <input type="text" id="newInfoCell" name="info" required>
+              <br><br>
+              <button type ="reset" id="reset">Reset</button>
+              <button type="submit" id="submit" required="True" value="submit" name="submit" onclick="insertdb()">Submit</button>
+          </fieldset>
+      </form>
+<footer>&copy; Copyright 2020 Kimi Huhtala and Veeti Pere</footer>
+</body>
+</html>

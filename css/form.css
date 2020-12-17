@@ -1,0 +1,27 @@
+#delete {
+    background-color: #d72c2c;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px #434343;
+    padding: 0.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  #edit {
+    background-color: rgb(51, 161, 51);
+    border: none;
+    color: white;
+    text-shadow: 1px 1px #434343;
+    padding: 0.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  a {
+      color: whitesmoke;
+  }

@@ -1,0 +1,39 @@
+#delete {
+    background-color: #d72c2c;
+    color: white;
+    text-shadow: 1px 1px #434343;
+    padding: 0.3vh;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+
+  #addNewBtn {
+    background-color: rgb(51, 161, 51);
+    border: none;
+    color: white;
+    text-shadow: 1px 1px #434343;
+    padding: 0.6vh;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+  }
+
+    #edit {
+      background-color: rgb(51, 161, 51);
+      border: none;
+      color: white;
+      text-shadow: 1px 1px #434343;
+      padding: 0.3vh;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+    }

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keep Up</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/delete.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header><img id="keepup" src="img/2.png" href="index.html"></header>
+<div class="main-content">
+  <div class="static-menu">
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html">Add</a></li>
+            <li><a href="update.html">Update</a></li>
+            <li><a href="delete.html" class="active">Delete</a></li>
+        </ul>
+    </nav>
+  </div>
+  
+  <div>
+    <h3>Delete</h3>
+    <form action="http://localhost:3306/" method="POST" id="add-new">
+      <fieldset>
+          <label>Type the id of the event you want to delete: </label>
+          <br><br>
+          <input type ="text" id="deletCell" name="name" required>
+          <br><br>
+          <button type="submit" id="submit" required="True" value="submit" name="submit">Delete</button>
+
+      </fieldset>
+  </form>
+  </div>
+</div>
+<footer>&copy; Copyright 2020 Kimi Huhtala and Veeti Pere</footer>
+</body>
+</html>

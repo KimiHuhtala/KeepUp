@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keep Up</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/update.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header><img id="keepup" src="img/2.png" href="index.html"></header>
+<div class="main-content">
+  <div class="static-menu">
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html">Add</a></li>
+            <li><a href="update.html" class="active">Update</a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </ul>
+    </nav>
+  </div>
+  <h3>Update</h3>
+  <form action="http://localhost:3306/" method="POST" id="add-new">
+      <fieldset>
+          <label>ID of the event: </label>
+          <br><br>
+          <input type ="text" id="updateCellId" name="name" required>
+          <br><br>
+          <label>New Name: </label>
+          <br><br>
+          <input type="text" id="updateNameCell" name="date" required>
+          <br><br>
+          <label>New Date: </label>
+          <br><br>
+          <input type="text" placeholder="1-09-2020" id="newDateCell" name="updateDateCell" required>
+          <br><br>
+          <label>New Info: </label>
+          <br><br>
+          <input type="text" id="updateInfoCell" name="date" required>
+          <br><br>
+          <button type ="reset" id="reset">Reset</button>
+          <button type="submit" id="submit" required="True" value="submit" name="submit">Submit</button>
+      </fieldset>
+  </form>
+</div>
+<footer>&copy; Copyright 2020 Kimi Huhtala and Veeti Pere</footer>
+</body>
+</html>
